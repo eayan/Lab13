@@ -38,8 +38,15 @@ void main()
 	cin >> num1;
 	cout << "Please enter another number: ";
 	cin >> num2;
-	cout << "Press A to add the two numbers. ";
-
-
+	cout << "Press A to add the two numbers.";
+	<< endl;
+	<< "Press S to substract the two number.";
+	<< endl;
+    << "Press M to Multiply the two numbers."
+    << endl;
+    << "Press D to Divide the two numbers."
+    << endl;
+    << "very nice very nice" 
+    << "very nice very nice" 
 }
 
