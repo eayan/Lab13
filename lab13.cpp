@@ -46,7 +46,22 @@ void main()
     << endl;
     << "Press D to Divide the two numbers."
     << endl;
-    << "very nice very nice" 
-    << "very nice very nice" 
+    cin >> op;
+    if (op == 65)
+    {
+    	ans = num1 + num2;
+    }
+    if (op == 83)
+    {
+    	ans = num1 - num2;
+    }
+    if (op == 77)
+    {
+    	ans = num1 * num2;
+    }
+    if (op == 68)
+    {
+    	ans = num1 / num2;
+    }
+cout << "The asnwer is " << ans << endl;
 }
-
